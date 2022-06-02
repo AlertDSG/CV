@@ -1,0 +1,22 @@
+.skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.skillsBlock {
+    border: 1px solid;
+}
+.title {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.cardBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid;
+}
+.cardBody {
+    text-align: center;
+    border: 1px solid;
+    width: 300px;
+}
