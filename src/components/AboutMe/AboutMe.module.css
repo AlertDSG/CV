@@ -1,0 +1,25 @@
+.aboutMe {
+    background: beige;
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+.contentBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+}
+.text {
+    width: 300px;
+    border: 1px solid;
+}
+.photoBlock {
+    height: 400px;
+    width: 300px;
+    border: 1px solid;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+}
