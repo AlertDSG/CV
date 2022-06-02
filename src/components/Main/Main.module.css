@@ -1,0 +1,17 @@
+.navBlock {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid;
+    background: #c0f4e1;
+}
+
+.bodyLinks {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid;
+    background: #c8c5c5;
+}
