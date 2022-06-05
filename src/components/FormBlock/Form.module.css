@@ -19,7 +19,8 @@
 }
 
 .title {
-    padding-bottom: 35px;
+    margin-bottom: 35px;
+    background: aquamarine;
 }
 .input {
     padding: 7px;

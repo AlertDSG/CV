@@ -7,13 +7,17 @@ export const Projects = () => {
         <section className={style.projects}>
             <div className={'container'}>
                 <div className={style.projectsBlock}>
-                    <h2 className={style.title}>My projects</h2>
+                    <h2 className={style.title}>
+                        <span className={style.span}>My projects
+                        </span>
+                    </h2>
                     <div className={style.cardBlock}>
                         <CardProject/>
                         <CardProject/>
                     </div>
                 </div>
             </div>
+
         </section>
     );
 };

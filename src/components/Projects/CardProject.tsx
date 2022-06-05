@@ -1,12 +1,10 @@
 import React from 'react';
-import icon from '../../logo.svg'
 import style from './Projects.module.css'
 
 export const CardProject = () => {
     return (
         <div className={style.cardBody}>
             <div className={style.headerCard}>
-                <img src={icon} alt="img project"/>
                 <a className={style.btn} href="#">Look project</a>
             </div>
             <h3>Name project</h3>

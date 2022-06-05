@@ -7,7 +7,10 @@
 }
 .title {
     text-align: center;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.span {
+    background-color: aquamarine;
 }
 .cardBlock {
     display: flex;
@@ -16,7 +19,15 @@
     border: 1px solid;
 }
 .cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     border: 1px solid;
-    width: 300px;
+    width: 330px;
+}
+.cardHeader {
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
 }

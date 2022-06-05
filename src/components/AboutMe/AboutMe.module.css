@@ -13,11 +13,13 @@
 .text {
     width: 300px;
     border: 1px solid;
+    background: aquamarine;
 }
 .photoBlock {
     height: 400px;
     width: 300px;
     border: 1px solid;
+    background: aquamarine;
 }
 .photo {
     width: 100%;

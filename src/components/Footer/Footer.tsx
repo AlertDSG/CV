@@ -13,7 +13,7 @@ export const Footer = () => {
                         <div className={style.item}></div>
                         <div className={style.item}></div>
                     </div>
-                    <span>&copy; 2022</span>
+                    <span className={style.copy}>&copy; 2022</span>
                 </div>
             </div>
         </footer>
