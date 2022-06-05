@@ -1,0 +1,41 @@
+.form {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: beige;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+}
+
+.formBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    padding-bottom: 35px;
+}
+.input {
+    padding: 7px;
+    height: 100px;
+    width: 340px;
+    margin-bottom: 10px;
+}
+.item {
+    height: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 15px;
+    width: 105px;
+    height: 35px;
+    background: #c0f4e1;
+    border-radius: 10px;
+}

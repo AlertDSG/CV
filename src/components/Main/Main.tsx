@@ -3,6 +3,7 @@ import {AboutMe} from "../AboutMe/AboutMe";
 import {Skills} from "../Skills/Skills";
 import {Projects} from "../Projects/Projects";
 import {InviteToWork} from "../InviteToWork/InviteToWork";
+import {Form} from "../FormBlock/Form";
 
 
 
@@ -13,6 +14,7 @@ import {InviteToWork} from "../InviteToWork/InviteToWork";
             <Skills/>
             <Projects/>
             <InviteToWork/>
+            <Form/>
         </main>
     );
 };
