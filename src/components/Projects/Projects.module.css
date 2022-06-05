@@ -1,0 +1,40 @@
+.projects {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: beige;
+}
+
+.projectsBlock {
+ border: 1px solid;
+}
+
+.cardBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.cardBody {
+    text-align: center;
+    border: 1px solid;
+    width: 450px;
+}
+
+.headerCard {
+ position: relative;
+}
+.btn {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 68px);
+    padding: 10px 25px;
+    background: #c0f4e1;
+    border-radius: 10px;
+}
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import {AboutMe} from "../AboutMe/AboutMe";
 import {Skills} from "../Skills/Skills";
+import {Projects} from "../Projects/Projects";
 
 
 
@@ -9,6 +10,7 @@ import {Skills} from "../Skills/Skills";
         <main className={'main'}>
             <AboutMe/>
             <Skills/>
+            <Projects/>
         </main>
     );
 };
