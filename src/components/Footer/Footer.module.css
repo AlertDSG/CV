@@ -18,10 +18,10 @@
 }
 
 .cardBlock {
-    max-width: 500px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 42px;
     border: 1px solid;
 }
 
