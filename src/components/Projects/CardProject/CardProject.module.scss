@@ -1,0 +1,30 @@
+@import '../../../common/styles/sass/variables';
+
+
+.cardBody {
+  text-align: center;
+  width: 450px;
+
+  .cardHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: dimgray;
+    background-size: cover;
+    background-position: center;
+
+    .btn {
+      padding: 10px 25px;
+      background: #c0f4e1;
+      border-radius: 10px;
+    }
+  }
+  .cardFooter {
+  background-color: $someColor;
+  }
+}
+
+
+

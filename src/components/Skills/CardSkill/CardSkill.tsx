@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skills.module.css'
+import style from './CardSkill.module.scss'
 
 
 export const CardSkill = () => {

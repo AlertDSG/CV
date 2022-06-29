@@ -1,0 +1,37 @@
+@import '../../common/styles/sass/variables';
+
+.projects {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: $primaryColor;
+    .projectsBlock {
+        .title {
+            text-align: center;
+            margin-bottom: 80px;
+            .span {
+                background-color: aquamarine;
+            }
+        }
+        .cardBlock {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//.titleContainer {
+//    display: flex;
+//    flex-direction: column;
+//}

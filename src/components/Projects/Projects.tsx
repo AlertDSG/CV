@@ -1,6 +1,7 @@
 import React from 'react';
-import style from './Projects.module.css';
-import {CardProject} from "./CardProject";
+import style from './Projects.module.scss';
+import {CardProject} from "./CardProject/CardProject";
+
 
 export const Projects = () => {
     return (

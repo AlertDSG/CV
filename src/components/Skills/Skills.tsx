@@ -1,6 +1,6 @@
 import React from 'react'
-import style from './Skills.module.css'
-import {CardSkill} from "./CardSkill";
+import style from './Skills.module.scss'
+import {CardSkill} from "./CardSkill/CardSkill";
 
 export const Skills = () => {
     return (

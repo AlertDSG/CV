@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Invite.module.css";
+import style from "./Invite.module.scss";
 
 
 export const InviteToWork = () => {

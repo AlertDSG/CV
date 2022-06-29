@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Form.module.css';
+import style from './Form.module.scss';
 
 
 export const Form = () => {
@@ -12,9 +12,9 @@ export const Form = () => {
                 <div className={style.formBlock}>
                     <h2 className={style.title}>Contacts</h2>
                     <form className={style.formBody}>
-                        <input className={inputText} placeholder={'Some text'} type="text"/>
-                        <input className={inputText} placeholder={'Some text'} type="text"/>
-                        <textarea className={style.input} placeholder={'Some text'}></textarea>
+                        <input className={style.inputText} placeholder={'Some text'} type="text"/>
+                        <input className={style.inputText} placeholder={'Some text'} type="text"/>
+                        <textarea className={style.inputMessage} placeholder={'Some text'}></textarea>
                         <input className={style.btn} type="submit" value={'Submit'}/>
                     </form>
                 </div>

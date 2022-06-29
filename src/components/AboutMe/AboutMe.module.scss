@@ -1,0 +1,23 @@
+@import '../../common/styles/sass/variables';
+
+.aboutMe {
+    background-color: $primaryColor;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    .contentBlock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .text {
+            padding: 10px;
+            width: 300px;
+            background: aquamarine;
+        }
+        .photoBlock {
+            height: 400px;
+            width: 300px;
+            background: aquamarine;
+        }
+    }
+}

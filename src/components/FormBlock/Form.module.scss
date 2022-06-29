@@ -1,0 +1,68 @@
+@import '../../common/styles/sass/variables';
+
+.form {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background: $primaryColor;
+  .formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      margin-bottom: 35px;
+      background: aquamarine;
+    }
+    .formBody {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .inputText{
+        padding: 10px;
+        height: 30px;
+        width: 325px;
+        margin-bottom: 10px;
+        background-color: $primaryColor;
+        text-transform: uppercase;
+        outline:none;
+        border-left: 4px solid $secondColor;
+        border-bottom: 4px solid $secondColor;
+        color: $secondColor;
+        line-height: inherit;
+      }
+      .inputMessage {
+        padding: 10px;
+        height: 100px;
+        width: 325px;
+        margin-bottom: 10px;
+        background-color: $primaryColor;
+        text-transform: uppercase;
+        outline:none;
+        border-left: 4px solid $secondColor;
+        border-bottom: 4px solid $secondColor;
+        color: $secondColor;
+      }
+      .btn {
+        cursor: pointer;
+        margin-top: 15px;
+        width: 105px;
+        height: 35px;
+        background: #c0f4e1;
+        border-radius: 10px;
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+//.item {
+//  height: 30px;
+//}
+
