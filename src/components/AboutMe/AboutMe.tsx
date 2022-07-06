@@ -7,15 +7,14 @@ export const AboutMe = () => {
             <div className={'container'}>
                 <div className={style.contentBlock}>
                     <div className={style.text}>
-                        <span>Hi There</span>
-                        <h1>I am Dmitryi Slabko</h1>
-                        <span>Frontend Developer</span>
+                        <span className={style.anyText}>Hi,</span>
+                        <h1 className={style.allName}>My name is <span className={style.name}>DZMITRIY,</span></h1>
+                        <span className={style.anyText}>And I'm Frontend Developer</span>
                     </div>
                     <div className={style.photoBlock}>
                     </div>
                 </div>
             </div>
-
         </section>
     );
 };

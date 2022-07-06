@@ -10,9 +10,31 @@
         justify-content: space-around;
         align-items: center;
         .text {
-            padding: 10px;
-            width: 300px;
-            background: aquamarine;
+            width: 500px;
+            color: $secondColor;
+            .anyText{
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 24px;
+                letter-spacing: 2px;
+                line-height: 1.1em;
+                color: $someText;
+            }
+            .allName{
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                padding: 15px 0;
+                letter-spacing: 1px;
+                line-height: 1.1em;
+                font-size: 45px;
+
+                .name{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: $someText;
+                }
+            }
         }
         .photoBlock {
             height: 400px;

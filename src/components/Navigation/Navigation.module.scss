@@ -1,3 +1,5 @@
+@import "../../common/styles/sass/variables";
+
 .navBlock {
     height: 80px;
     display: flex;
@@ -6,6 +8,14 @@
     .bodyLinks {
         display: flex;
         gap: 40px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 56%;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: $anyText;
     }
 }
 
