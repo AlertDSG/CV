@@ -1,8 +1,20 @@
 import React from 'react'
 import style from './Skills.module.scss'
-import {CardSkill} from "./CardSkill/CardSkill";
+import {CardSkill} from "./CardSkill/CardSkill"
+import react from '../../assets/icons8-react.svg'
+import redux from '../../assets/icons8-redux.svg'
+import js from '../../assets/icons8-javascript.svg'
 
 export const Skills = () => {
+
+    const arrSkills = [
+        {style: {backgroundImage: `url(${react})`}, technologies: "React"},
+        {style: {backgroundImage: `url(${redux})`}, technologies: "Redux"},
+        {style:{backgroundImage: `url(${js})`}, technologies: "JavaScript"},
+    ]
+
+    const cardSkill = arrSkills.map(a =><CardSkill info={a} />)
+
     return (
         <section className={style.skills}>
             <div className={'container'}>
@@ -13,9 +25,7 @@ export const Skills = () => {
                         </span>
                     </h2>
                     <div className={style.cardBlock}>
-                        <CardSkill/>
-                        <CardSkill/>
-                        <CardSkill/>
+                        {cardSkill}
                     </div>
                 </div>
             </div>

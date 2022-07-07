@@ -1,3 +1,5 @@
+@import "../../common/styles/sass/variables";
+
 .skills {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -6,7 +8,16 @@
             text-align: center;
             margin-bottom: 80px;
             .span {
-                background-color: aquamarine;
+                display: inline-block;
+                padding: 25px 50px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                letter-spacing: 15px;
+                line-height: 1.1;
+                text-transform: uppercase;
+                border: 10px solid $primaryColor;
+                color: $primaryColor
             }
         }
         .cardBlock {
