@@ -14,7 +14,7 @@ export const Skills = () => {
         {style:{backgroundImage: `url(${js})`}, technologies: "JavaScript"},
     ]
 
-    const cardSkill = arrSkills.map(a =><CardSkill info={a} />)
+    const cardSkill = arrSkills.map((a, i) =><CardSkill key={i} info={a} />)
 
     return (
         <section className={style.skills}>

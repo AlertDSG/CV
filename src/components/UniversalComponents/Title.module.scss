@@ -5,6 +5,7 @@
   margin-bottom: 80px;
 
   .span {
+    max-width: 100%;
     display: inline-block;
     color: $secondColor;
     padding: 25px 50px;
@@ -15,6 +16,10 @@
     line-height: 1.1;
     text-transform: uppercase;
     border: 8px solid $secondColor;
-
+    @media screen and (max-width: 550px) {
+      font-size: 26px;
+      padding: 15px 35px;
+      letter-spacing: 5px;
+    }
   }
 }

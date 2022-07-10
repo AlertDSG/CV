@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Form.module.scss';
 import {Title} from "../UniversalComponents/Title";
+import {Btn} from "../UniversalComponents/Btn";
 
 
 export const Form = () => {
@@ -16,7 +17,7 @@ export const Form = () => {
                         <input className={style.inputText} placeholder={'Some text'} type="text"/>
                         <input className={style.inputText} placeholder={'Some text'} type="text"/>
                         <textarea className={style.inputMessage} placeholder={'Some text'}></textarea>
-                        <input className={style.btn} type="submit" value={'Submit'}/>
+                        <Btn name={'submit'} btn={true} className={style.button}/>
                     </form>
                 </div>
             </div>

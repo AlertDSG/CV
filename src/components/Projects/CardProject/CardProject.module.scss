@@ -5,20 +5,42 @@
   text-align: center;
   width: 450px;
 
+
   .cardHeader {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 250px;
-    background-color: dimgray;
     background-size: cover;
     background-position: center;
 
-    .btn {
-      padding: 10px 25px;
-      background: #c0f4e1;
-      border-radius: 10px;
+    &::before {
+      position: absolute;
+      content: '';
+      z-index: 2;
+      background-color: $primaryColor;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.8;
+    }
+
+    .button {
+      z-index: 2;
+      color: $secondColor;
+      border-left: 4px solid $secondColor;
+      border-right: 4px solid $secondColor;
+    }
+
+    .button:hover {
+      transition: 0.7s;
+      color: $primaryColor;
+      background-color: $secondColor;
+      padding-left: 17px;
+      padding-right: 17px;
     }
   }
 
@@ -27,12 +49,14 @@
     font-weight: 300;
     background-color: $someColor;
     color: $secondColor;
-    .title{
+
+    .title {
       padding: 10px 0;
       font-size: 24px;
       line-height: 24px;
     }
-    .description{
+
+    .description {
       padding: 0 15px 15px 10px;
       font-size: 14px;
       line-height: 24px;

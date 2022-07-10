@@ -14,10 +14,19 @@
         .subTitle {
             margin-bottom: 35px;
         }
-        .btn {
-            padding: 10px 25px;
-            background: #c0f4e1;
-            border-radius: 10px;
+        .button {
+            color: $primaryColor;
+            border-left: 4px solid $primaryColor;
+            border-right: 4px solid $primaryColor;
+        }
+
+        .button:hover {
+            transition: 0.7s;
+            color: $secondColor;
+            background-color: $primaryColor;
+            padding-left: 17px;
+            padding-right: 17px;
+
         }
     }
 
