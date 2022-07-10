@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Form.module.scss';
+import {Title} from "../UniversalComponents/Title";
 
 
 export const Form = () => {
@@ -10,7 +11,7 @@ export const Form = () => {
         <section className={style.form}>
             <div className={'container'}>
                 <div className={style.formBlock}>
-                    <h2 className={style.title}>Contacts</h2>
+                    <Title name={'contacts'}/>
                     <form className={style.formBody}>
                         <input className={style.inputText} placeholder={'Some text'} type="text"/>
                         <input className={style.inputText} placeholder={'Some text'} type="text"/>

@@ -4,6 +4,7 @@ import {CardSkill} from "./CardSkill/CardSkill"
 import react from '../../assets/icons8-react.svg'
 import redux from '../../assets/icons8-redux.svg'
 import js from '../../assets/icons8-javascript.svg'
+import {Title} from "../UniversalComponents/Title";
 
 export const Skills = () => {
 
@@ -19,11 +20,7 @@ export const Skills = () => {
         <section className={style.skills}>
             <div className={'container'}>
                 <div className={style.skillsBlock}>
-                    <h2 className={style.title}>
-                        <span className={style.span}>
-                            My skills
-                        </span>
-                    </h2>
+                   <Title name={'Skills'} className={style.title}/>
                     <div className={style.cardBlock}>
                         {cardSkill}
                     </div>

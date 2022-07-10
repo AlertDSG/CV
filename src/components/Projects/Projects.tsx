@@ -3,6 +3,7 @@ import style from './Projects.module.scss'
 import {CardProject} from "./CardProject/CardProject"
 import todo from '../../assets/todolist.png'
 import social from '../../assets/social.png'
+import {Title} from "../UniversalComponents/Title";
 
 
 export const Projects = () => {
@@ -26,16 +27,13 @@ export const Projects = () => {
         }
 ]
 
-    const cardProject = cardProjects.map(c => <CardProject info={c} />)
+    const cardProject = cardProjects.map((c,i) => <CardProject key={i} info={c} />)
 
 return (
     <section className={style.projects}>
         <div className={'container'}>
             <div className={style.projectsBlock}>
-                <h2 className={style.title}>
-                        <span className={style.span}>My projects
-                        </span>
-                </h2>
+                <Title name={'projects'} className={style.title}/>
                 <div className={style.cardBlock}>
                     {cardProject}
                 </div>

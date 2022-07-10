@@ -1,11 +1,17 @@
+@import '../../common/styles/sass/variables';
+
 .invite {
     padding-top: 80px;
     padding-bottom: 80px;
+    .title{
+        color: $primaryColor;
+        border: 8px solid $primaryColor;
+    }
     .inviteBlock {
         display: flex;
         flex-direction: column;
         align-items: center;
-        .title {
+        .subTitle {
             margin-bottom: 35px;
         }
         .btn {
