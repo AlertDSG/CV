@@ -1,9 +1,25 @@
 import React from 'react'
 import style from './AboutMe.module.scss'
+// import Particles from "react-particles-js";
+//
+//
+//
+// const particlesOpt = {
+//     "particles": {
+//         "number": {
+//             "value": 150,
+//             "density": {
+//                 "enable": true,
+//                 "value_area": 800
+//             },
+//         },
+//     },
+// }
 
 export const AboutMe = () => {
     return (
         <section className={style.aboutMe}>
+            {/*<Particles />*/}
             <div className={'container'}>
                 <div className={style.contentBlock}>
                     <div className={style.text}>

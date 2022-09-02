@@ -5,10 +5,10 @@ import style from "./Navigation.module.scss";
     return (
         <nav className={style.navBlock}>
             <ul className={style.bodyLinks}>
-                <li><a href={'#'} >Home</a></li>
-                <li><a href={'#'} >Skills</a></li>
-                <li><a href={'#'} >Projects</a></li>
-                <li><a href={'#'} >Contacts</a></li>
+                <li className={style.link}><a  href={'#'} >Home</a></li>
+                <li><a href={'#skills'} >Skills</a></li>
+                <li><a href={'#projects'} >Projects</a></li>
+                <li><a href={'#contacts'} >Contacts</a></li>
             </ul>
         </nav>
     );

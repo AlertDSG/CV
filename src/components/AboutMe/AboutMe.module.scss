@@ -1,45 +1,60 @@
 @import '../../common/styles/sass/variables';
 
 .aboutMe {
-    background-color: $primaryColor;
-    padding-top: 160px;
-    padding-bottom: 80px;
-    .contentBlock {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        .text {
-            width: 500px;
-            color: $secondColor;
-            .anyText{
-                font-family: 'Lato', sans-serif;
-                font-weight: 400;
-                font-size: 24px;
-                letter-spacing: 2px;
-                line-height: 1.1em;
-                color: $someText;
-            }
-            .allName{
-                font-family: 'Lato', sans-serif;
-                font-weight: 400;
-                padding: 15px 0;
-                letter-spacing: 1px;
-                line-height: 1.1em;
-                font-size: 45px;
+  background-color: $primaryColor;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 80px;
 
-                .name{
-                    font-family: 'Montserrat', sans-serif;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                    color: $someText;
-                }
-            }
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+  }
+
+  .contentBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .text {
+      width: 500px;
+      color: $secondColor;
+
+      .anyText {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 2px;
+        line-height: 1.1em;
+        color: $someText;
+      }
+
+      .allName {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        padding: 15px 0;
+        letter-spacing: 1px;
+        line-height: 1.1em;
+        font-size: 45px;
+
+        .name {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: $someText;
         }
-        .photoBlock {
-            height: 400px;
-            width: 300px;
-            background: aquamarine;
-        }
+      }
     }
+
+    .photoBlock {
+      height: 400px;
+      width: 300px;
+      background: aquamarine;
+    }
+  }
 }

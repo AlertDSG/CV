@@ -15,7 +15,16 @@
         letter-spacing: 0.2em;
         text-transform: uppercase;
         cursor: pointer;
-        color: $anyText;
+        //color: $anyText;
+        .link{
+            color: $anyText;
+        }
+        .link:hover{
+            color: red
+        }
+        .link:target{
+            color: red
+        }
     }
 }
 
