@@ -1,7 +1,7 @@
 @import "../../common/styles/sass/variables";
 
 .navBlock {
-    height: 60px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -23,6 +23,9 @@
             color: red
         }
         .link:target{
+            color: red
+        }
+        .linkActive{
             color: red
         }
     }

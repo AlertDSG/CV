@@ -5,16 +5,18 @@ import {Projects} from "../Projects/Projects";
 import {InviteToWork} from "../InviteToWork/InviteToWork";
 import {Form} from "../FormBlock/Form";
 
+type MainType ={
+    positionHandler: (status: string) => void
+}
 
-
- export const Main = () => {
+ export const Main = ({positionHandler}: MainType) => {
     return (
         <main className={'main'}>
-            <AboutMe/>
-            <Skills/>
-            <Projects/>
+            <AboutMe positionHandler={positionHandler}/>
+            <Skills positionHandler={positionHandler}/>
+            <Projects positionHandler={positionHandler}/>
             <InviteToWork/>
-            <Form/>
+            <Form positionHandler={positionHandler}/>
         </main>
     );
 };

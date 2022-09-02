@@ -3,11 +3,14 @@ import style from './Form.module.scss';
 import {Title} from "../UniversalComponents/Title";
 import {Btn} from "../UniversalComponents/Btn";
 
+type FormType = {
+    positionHandler: (id: string) => void
+}
 
-export const Form = () => {
+export const Form = ({positionHandler}: FormType) => {
 
     return (
-        <section id={'contacts'} className={style.form}>
+        <section id={'contacts'} className={style.form} onWheel={event => positionHandler(event.currentTarget.id)}>
             <div className={'container'}>
                 <div className={style.formBlock}>
                     <Title name={'contacts'}/>

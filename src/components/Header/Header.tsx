@@ -2,11 +2,16 @@ import React from 'react';
 import style from './Header.module.scss'
 import {Navigation} from "../Navigation/Navigation";
 
-export const Header = () => {
+type HeaderType = {
+    position: string
+    positionHandler: (status: string) => void
+}
+
+export const Header = ({position, positionHandler}: HeaderType) => {
     return (
         <header className={style.header}>
             <div className={'container'}>
-                <Navigation/>
+                <Navigation position={position} positionHandler={positionHandler}/>
             </div>
         </header>
     );

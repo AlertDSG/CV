@@ -1,5 +1,8 @@
 import React from 'react'
 import style from './AboutMe.module.scss'
+
+
+
 // import Particles from "react-particles-js";
 //
 //
@@ -15,10 +18,14 @@ import style from './AboutMe.module.scss'
 //         },
 //     },
 // }
+type AboutType = {
+    positionHandler: (status: string) => void
+}
+export const AboutMe = ({positionHandler}: AboutType) => {
 
-export const AboutMe = () => {
+
     return (
-        <section className={style.aboutMe}>
+        <section id={'about'} className={style.aboutMe} onWheel={event => positionHandler(event.currentTarget.id)}>
             {/*<Particles />*/}
             <div className={'container'}>
                 <div className={style.contentBlock}>

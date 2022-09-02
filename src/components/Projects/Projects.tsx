@@ -26,13 +26,16 @@ const cardProjects = [
     }
 ]
 
+type ProjectsType = {
+    positionHandler: (id: string) => void
+}
 
-export const Projects = () => {
+export const Projects = ({positionHandler}: ProjectsType) => {
 
     const cardProject = cardProjects.map((c, i) => <CardProject key={i} info={c}/>)
 
     return (
-        <section id={'projects'} className={style.projects}>
+        <section id={'projects'} className={style.projects} onWheel={event => positionHandler(event.currentTarget.id)}>
             <div className={'container'}>
                 <div className={style.projectsBlock}>
                     <Title name={'projects'} className={style.title}/>

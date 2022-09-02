@@ -31,12 +31,16 @@ const arrSkills = [
     {style:{backgroundImage: `url(${git})`}, technologies: "Git"},
 ]
 
-export const Skills = () => {
+type SkillsType = {
+    positionHandler: (id: string) => void
+}
+
+export const Skills = ({positionHandler}: SkillsType) => {
 
     const cardSkill = arrSkills.map((a, i) =><CardSkill key={i} info={a} />)
 
     return (
-        <section id={'skills'} className={style.skills}>
+        <section id={'skills'} className={style.skills} onWheel={event => positionHandler(event.currentTarget.id)}>
             <div className={'container'}>
                 <div className={style.skillsBlock}>
                    <Title name={'Skills'} className={style.title}/>
