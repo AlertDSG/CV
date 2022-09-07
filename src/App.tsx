@@ -1,9 +1,8 @@
-import React, {useRef, useState} from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import {Header} from "./components/Header/Header";
 import { Main } from './components/Main/Main';
 import {Footer} from "./components/Footer/Footer";
-import {useSearchParams} from "react-router-dom";
 
 function App() {
 
@@ -11,7 +10,7 @@ function App() {
 
     const positionHandler = (status: string) => {
         status !== position && setPosition(status)
-        document.location.hash = `#${status}`
+        document.location.hash = `${status}`
     }
 
     return (

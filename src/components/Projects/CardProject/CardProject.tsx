@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './CardProject.module.scss'
-import {Btn} from "../../UniversalComponents/Btn";
+import {Btn} from "../../../common/UniversalComponents/Btn";
 
 type CardProjectPropsType = {
     info: {

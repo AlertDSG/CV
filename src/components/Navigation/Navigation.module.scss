@@ -15,15 +15,17 @@
         letter-spacing: 0.2em;
         text-transform: uppercase;
         cursor: pointer;
-        //color: $anyText;
         .link{
-            color: $anyText;
+            color: $someText;
         }
         .link:hover{
-            color: aquamarine
+            font-weight: 500;
+            color: $secondColor;
         }
         .linkActive{
-            color: aquamarine
+            font-size: 12px;
+            font-weight: 500;
+            color: $secondColor;
         }
     }
 }

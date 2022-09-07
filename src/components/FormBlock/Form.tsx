@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Form.module.scss';
-import {Title} from "../UniversalComponents/Title";
-import {Btn} from "../UniversalComponents/Btn";
+import {Title} from "../../common/UniversalComponents/Title";
+import {Btn} from "../../common/UniversalComponents/Btn";
 
 type FormType = {
     positionHandler: (id: string) => void
@@ -17,7 +17,7 @@ export const Form = ({positionHandler}: FormType) => {
                     <form className={style.formBody}>
                         <input className={style.inputText} placeholder={'Email'} type="text"/>
                         <input className={style.inputText} placeholder={'Your name'} type="text"/>
-                        <textarea className={style.inputMessage} placeholder={'Some text'}></textarea>
+                        <textarea className={style.inputMessage} placeholder={'Some text'}/>
                         <Btn name={'submit'} btn={true} className={style.button}/>
                     </form>
                 </div>

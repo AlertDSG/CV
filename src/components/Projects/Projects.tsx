@@ -3,7 +3,8 @@ import style from './Projects.module.scss'
 import {CardProject} from "./CardProject/CardProject"
 import todo from '../../assets/img/projects/todolist.png'
 import social from '../../assets/img/projects/social.png'
-import {Title} from "../UniversalComponents/Title";
+import {Title} from "../../common/UniversalComponents/Title";
+import {Fade} from "react-awesome-reveal";
 
 const cardProjects = [
     {
@@ -36,15 +37,16 @@ export const Projects = ({positionHandler}: ProjectsType) => {
 
     return (
         <section id={'projects'} className={style.projects} onWheel={event => positionHandler(event.currentTarget.id)}>
-            <div className={'container'}>
-                <div className={style.projectsBlock}>
-                    <Title name={'projects'} className={style.title}/>
-                    <div className={style.cardBlock}>
-                        {cardProject}
+            <Fade cascade direction={'left'}>
+                <div className={'container'}>
+                    <div className={style.projectsBlock}>
+                        <Title name={'projects'} className={style.title}/>
+                        <div className={style.cardBlock}>
+                            {cardProject}
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </Fade>
         </section>
     )
 }

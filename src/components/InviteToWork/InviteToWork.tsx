@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./Invite.module.scss";
-import {Title} from "../UniversalComponents/Title";
-import {Btn} from "../UniversalComponents/Btn";
+import {Title} from "../../common/UniversalComponents/Title";
+import {Btn} from "../../common/UniversalComponents/Btn";
 
 
 export const InviteToWork = () => {

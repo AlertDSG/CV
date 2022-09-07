@@ -1,10 +1,11 @@
 @import '../../common/styles/sass/variables';
 
 .aboutMe {
-  background-color: $primaryColor;
+  //background-color: $primaryColor;
   position: relative;
   padding-top: 160px;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
+  min-height: 100vh;
 
   .particles {
     position: absolute;
@@ -12,7 +13,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.3;
+    //opacity: 0.3;
+    z-index: -1;
   }
 
   .contentBlock {

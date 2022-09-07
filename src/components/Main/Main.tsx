@@ -12,6 +12,7 @@ type MainType ={
  export const Main = ({positionHandler}: MainType) => {
     return (
         <main className={'main'}>
+
             <AboutMe positionHandler={positionHandler}/>
             <Skills positionHandler={positionHandler}/>
             <Projects positionHandler={positionHandler}/>
