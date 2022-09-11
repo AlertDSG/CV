@@ -12,7 +12,7 @@ const cardProjects = [
             backgroundImage: `url(${todo})`
         },
         name: 'TodoList',
-        technologies: 'Technologies: JavaScript, TypeScript, React, Redux, Material UI, SCSS',
+        technologies: 'Technologies: JavaScript, TypeScript, React, Redux Toolkit, Formik, Axios, Material UI, CSS module',
         description: 'SPA for managing to-do lists and their items. Implemented: add todolist / task, remove todolist / task, rename todolist / task, marking the completed task, displaying all / active / confirmed tasks in todolist.',
         nameBtn: 'look project'
     },
@@ -21,8 +21,17 @@ const cardProjects = [
             backgroundImage: `url(${social})`
         },
         name: 'Social network',
-        technologies: 'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS',
+        technologies: 'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, Formik, Axios, Reselect, SCSS',
         description: 'SPA for social actions - messaging and blogging. Implemented: login page with validation, error displaying and captcha; 404 page; profile page with abilities to: view the information of the selected user, edit your profile information, change avatar, add a new post and view your published posts; dialogs page with the ability to send a message; users page and friends page with abilities to: view the list of users using pagination, subscribe and unsubscribe to any user, view any user profile.',
+        nameBtn: 'look project'
+    },
+    {
+        style: {
+            backgroundImage: `url(${social})`
+        },
+        name: 'Cards',
+        technologies: 'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, Formik, Axios, CSS module, Material UI',
+        description: 'SPA for study - question and answer. Implemented: login page with validation, error displaying; 404 page. Creating learning app in team with using git, work with axios(CRUD),login/logout flow, pagination, form and validation/file uploading.',
         nameBtn: 'look project'
     }
 ]

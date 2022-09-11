@@ -10,15 +10,30 @@ export const Footer = () => {
         <footer className={style.footerBlock}>
             <div className={'container'}>
                 <div className={style.contentBlock}>
-                    <h2 className={style.title}>Slabko Dmitryi</h2>
+                    <h2 className={style.title}>Slabko Dzmitryi</h2>
                     <div className={style.cardBlock}>
                         <div className={style.item}>
-                            <a href="#"><Linkedin className={style.img}/>
+                            <a target={'_blank'} href="https://www.linkedin.com/in/dzmitryi-slabko"><Linkedin
+                                className={style.img}/>
                             </a>
                         </div>
-                        <div className={style.item}><a href=""><Codewars className={style.img}/></a></div>
-                        <div className={style.item}><a href=""><GitHub className={style.img}/></a></div>
-                        <div className={style.item}><a href=""><Cv className={style.img}/></a></div>
+                        <div className={style.item}>
+                            <a target={'_blank'} href="https://www.codewars.com/users/AlertDSG">
+                                <Codewars
+                                    className={style.img}/>
+                            </a>
+                        </div>
+                        <div className={style.item}>
+                            <a target={'_blank'} href="https://github.com/AlertDSG">
+                                <GitHub
+                                    className={style.img}/>
+                            </a>
+                        </div>
+                        <div className={style.item}>
+                            <a target={'_blank'} href="">
+                                <Cv className={style.img}/>
+                            </a>
+                        </div>
                     </div>
                     <span className={style.copy}>&copy; 2022</span>
                 </div>
